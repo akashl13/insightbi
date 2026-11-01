@@ -532,6 +532,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 @media (max-width: 700px) {
   .app-shell { --sidebar-width: 246px; }
+  .app-content { margin-left: 0; }
   .sidebar { width: 246px; transform: translateX(-100%); box-shadow: 15px 0 40px rgb(5 14 26 / 20%); }
   .sidebar.mobile-open { transform: translateX(0); }
   .is-collapsed .sidebar { width: 246px; }
